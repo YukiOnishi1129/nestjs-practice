@@ -6,16 +6,19 @@ import {
   Redirect,
   Query,
   Param,
+  Body,
+  Delete,
 } from '@nestjs/common';
 import { Request } from 'express';
+import { CreateCatDto } from './create-cat.dto';
 
 // @Controller(): コントローラーを定義するデコレータ
 @Controller('cats')
 export class CatsController {
   // post送信
   @Post()
-  create(): string {
-    return 'This action adds a new cat';
+  async create(@Body() createCatDto: CreateCatDto) {
+    return `This action adds a new cat`;
   }
 
   @Get()
