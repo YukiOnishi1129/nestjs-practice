@@ -15,3 +15,5 @@
 
 - mysql コンテナへログイン
   docker exec -it nestjs_typeorm_db mysql -u root -p
+
+## nestjs コマンド
