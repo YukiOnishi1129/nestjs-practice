@@ -24,7 +24,7 @@
     "@nestjs/common": "^7.6.15",
     "@nestjs/core": "^7.6.15",
     "@nestjs/platform-express": "^7.6.15",
-    "@prisma/client": "2.27.0",
+    "@prisma/client": "^2.27.0",
     "prisma": "2.27.0",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
